@@ -28,7 +28,6 @@ public class Program {
 		System.out.println("PASS");
 		}
 		sc.close();
-	
 	}
 
 }

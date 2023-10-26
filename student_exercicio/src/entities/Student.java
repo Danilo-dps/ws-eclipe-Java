@@ -11,12 +11,12 @@ public class Student {
 	}
 	
 	public double missingPoints() {
-	if (finalGrade() < 60.0) {
-	return 60.0 - finalGrade();
-	}
-	else {
-	return 0.0;
-	}
-
+	
+		if (finalGrade() < 60.0) {
+			return 60.0 - finalGrade();
+		}
+		else {
+			return 0.0;
+		}
 	}
 }
